@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shorcut icon" type="png" href="Images/favicon.ico" />
+    <style>
+      link[rel="icon"] {
+        width: 100px;
+        height: 100px;
+      }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dominic Parker</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/5a401cce23.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="Images/logo-no-background.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Software Engineer</p>
+          <h1>Hi, I'm <span>Dominic</span><br />Parker From California</h1>
+        </div>
+      </div>
+    </div>
+    <!------------about----------------------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="Images/Headshot.jpeg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I'm Dominic Parker, a Computer Science student at San Diego State
+              University. With a strong foundation in programming languages like
+              Java and Python, I strive to create innovative solutions that
+              address real-world challenges. My experience includes working at
+              John Deere as a software engineering intern and at Greater Than
+              Tech as a project intern. Outside of my studies and work, I
+              actively engage with organizations like the National Society of
+              Black Engineers (NSBE) and Sankofatech's Achievers in Technology
+              (AIT) program. Additionally, my involves in programs such as the
+              Google x MLT Tech Equity Collective Tech Prep and the HeadStart
+              Fellowship. I'm genuinely excited about the endless possibilities
+              in the tech world and eagerly look forward to leveraging my skills
+              to make a positive impact on people's lives.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('awards')">Awards</p>
+              <p class="tab-links" onclick="opentab('orginizations')">
+                Orginizations
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul class="tab-columns">
+                <li><span>Java</span><br />Intermediate</li>
+                <li><span>Python</span><br />Beginner</li>
+                <li><span>HTML</span><br />Beginner</li>
+                <li><span>CSS</span><br />Beginner</li>
+                <li><span>Docker</span><br />Beginner</li>
+                <li><span>Kubernetes</span><br />Beginner</li>
+                <li><span>Git</span><br />Beginner</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul class="tab-columns">
+                <li>
+                  <span>May 2023 - Present</span><br />Software Engineer Intern
+                  @ John Deere
+                </li>
+                <li>
+                  <span>March 2023 - June 2023 </span><br />Project Lead Intern
+                  @ Greater Than Tech
+                </li>
+                <li>
+                  <span>October 2021 - February 2022</span><br />Personal Math
+                  Tutor
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul class="tab-columns">
+                <li>
+                  <span>August 2022 - Present</span><br />San Diego State
+                  University
+                </li>
+                <li>
+                  <span>August 2018 - June 2022</span><br />Villa Park High
+                  School
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="awards">
+              <ul class="tab-columns">
+                <li>
+                  <span>August 2022 - Present</span><br />Achievers In
+                  Technology (AIT) Program and Scholarship
+                </li>
+                <li>
+                  <span>June 2023</span><br />Hispanic Scholarship Fund Scholar
+                </li>
+                <li><span>May 2023</span><br />AIT Scholar Spotlight</li>
+                <li><span>August 2022 - May 2023</span><br />Dean's List</li>
+                <li>
+                  <span>January 2022</span><br />Phi Beta Sigma Scholarship
+                </li>
+                <li>
+                  <span>August 2022</span><br />VANROSS Foundation (TVF)
+                  Scholarship
+                </li>
+                <li>
+                  <span>July 2022</span><br />William R. Blow Sr. Scholarship
+                  Fund
+                </li>
+                <li>
+                  <span>August 2020 - June 2022</span><br />Villa Park Top
+                  Scholar Athlete Award for Boys Basketball
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="orginizations">
+              <ul class="tab-columns">
+                <li>
+                  <span>April 2023 - Present</span><br />National Society of
+                  Black Engineers (NSBE) - Chapter Vice President & Regional
+                  Technology Chair
+                </li>
+                <li>
+                  <span>March 2023 - Present</span><br />Google x MLT Tech
+                  Equity Collective Tech Prep - Rising Innovator
+                </li>
+                <li>
+                  <span>March 2023 - Present</span><br />SEO Tech Developer
+                  First-Year Academy - Student
+                </li>
+                <li>
+                  <span>August 2022 - Present</span><br />Sankofatech Achievers
+                  in Technology Program - Scholar
+                </li>
+                <li>
+                  <span>August 2022 - Present</span><br />HeadStart Fellowship -
+                  Fellow
+                </li>
+                <li>
+                  <span>August 2022 - Present</span><br />ColorStack - Fellow
+                </li>
+                <li>
+                  <span>May 2023 - June 2023</span><br />Sixth Street Early
+                  Insights Fellowship Program - Fellow
+                </li>
+                <li>
+                  <span>May 2023</span><br />Capital One Software Engineering
+                  Summit - Participant
+                </li>
+                <li>
+                  <span>March 2023</span><br />Google Cultivate Summit -
+                  Participant
+                </li>
+                <li>
+                  <span>February 2023</span><br />Capital One Ignite Program -
+                  Participant
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------portfolio---------------------- -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="Images/phone.jpg" />
+            <div class="layer">
+              <h3>Receipt Keeper</h3>
+              <p>
+                Developed a user-friendly web application called Receipt Keeper
+                that allows users to upload digital receipts and securely store
+                them in a centralized database
+              </p>
+              <a href="Images/Receipt Keeper.mp4" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/phone.jpg" />
+            <div class="layer">
+              <h3>GPU Web Scraper</h3>
+              <p>
+                Developed a program that extracts certain information on a
+                specific website using Object-Oriented Programming such as
+                retrieving GPU descriptions and stock data.
+              </p>
+              <a href="Images/WebScraper.mp4" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/phone.jpg" />
+            <div class="layer">
+              <h3>Student Data Base Program</h3>
+              <p>
+                Launched an app allowing the user to create students and
+                customize information such as personal grade, course, tuition
+                cost, and student ID.
+              </p>
+              <a href="Images/StudentDataBaseProgram.mp4" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/phone.jpg" />
+            <div class="layer">
+              <h3>Calculator App</h3>
+              <p>
+                Displayed a calculator application that calculated simple and
+                complex mathematical functions performed by interacting with one
+                another through object orientation, comprised of trigonometric,
+                scientific, and fundamental calculator components.
+              </p>
+              <a href="Images/CalculatorApp.mp4" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/phone.jpg" />
+            <div class="layer">
+              <h3>Tic Tac Toe</h3>
+              <p>
+                Modeled a tic-tac-toe game design that was integrated within
+                two-D Array and displayed to the console. Established a CPU that
+                randomly chose a section of the two D Array based on the user's
+                previous move and determined the winner based on position.
+              </p>
+              <a href="Images/TicTacToe.mp4" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="javascript:void(0)" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!-- ---------------contact-------------------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>dparker206@icloud.com</p>
+            <p><i class="fa-solid fa-phone"></i>714-746-9893</p>
+            <div class="social-icons">
+              <a
+                href="https://www.linkedin.com/in/dominic-parker6/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="https://github.com/Domm6" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+            <a
+              href="Images/Current Dominic Parker - Resume.pdf"
+              target="_blank"
+              class="btn btn2"
+              >Resume</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © Dominic Parker.</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+      const msg = document.getElementById("msg");
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbyJr08aMw-6YeOyeP4mAV9KWNXCOUTXKuA3qK_3uVOVwXc8LdNmG_eTv_9BGFSh3NW05w/exec";
+      const form = document.forms["submit-to-google-sheet"];
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var btn = document.querySelector(".btn");
+        var workList = document.querySelector(".work-list");
+
+        btn.addEventListener("click", function () {
+          workList.classList.toggle("expand");
+        });
+      });
+    </script>
+  </body>
+</html>
